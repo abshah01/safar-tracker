@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // This line is the bridge for Google Services (Firebase)
+        classpath 'com.google.gms:google-services:4.4.0'
+        
+        // This is the standard Android build tool
+        classpath 'com.android.tools.build:gradle:7.3.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
